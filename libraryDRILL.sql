@@ -332,6 +332,4 @@ INNER JOIN book_copies.branch_id ON library_branch.branch_id = books.name_
 WHERE books.name_ = 'stephen king', 'stephen king'
 WHERE book_copies.branch_name = 'central'
 
-
-
 END
